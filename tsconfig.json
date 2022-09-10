@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "target": "ESNEXT",
+    "module": "commonjs",
+    "lib": ["dom", "ESNext"],
+    "composite": true,
+    "removeComments": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["coverage", ".vscode", ".git", ".github", "node_modules", "dist", "package.json"]
+}
